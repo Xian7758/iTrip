@@ -27,39 +27,11 @@ public class IndexController {
 	@Autowired
 	UserService userService;
 	
-	@RequestMapping("login")
-	@ResponseBody
-	public User login(){
-		User user = new User();
-		user.setUsername("admin");
-		user.setPassword("123");
-		return userService.login(user);
-	}
-	
-	@RequestMapping("login2")
-	@ResponseBody
-	public User login2(){
-		User user = new User();
-		user.setUsername("lilei");
-		user.setPassword("123");
-		return userService.login(user);
-	}
 	
 	@RequestMapping("getList")
 	@ResponseBody
 	public List<User> getList(){
 		return userService.getAll();
-	}
-	
-	@RequestMapping("getDataByType")
-	@ResponseBody
-	public String getDataByType(String type){
-		System.out.println("in getDataByType");
-		if(type.equals("sale")) {
-			return "[10.5, 11.8, 14.4, 18.9, 15.7, 13.4, 11.5, 12.8, 13.2,14.6, 13.8, 12.8]";
-		}else {
-			return "[875,983,1198,1575,1308,1116,958,1066,1100,1216,1150,1066]";
-		}
 	}
 	
 	/**
@@ -138,14 +110,16 @@ public class IndexController {
 				//判断该笔订单是否在商户网站中已经做过处理
 				//如果没有做过处理，根据订单号（out_trade_no）在商户网站的订单系统中查到该笔订单的详细，并执行商户的业务程序
 				//如果有做过处理，不执行商户的业务程序
+					
 				//注意：
 				//退款日期超过可退款期限后（如三个月可退款），支付宝系统发送该交易状态通知
-				
 			}else if (trade_status.equals("TRADE_SUCCESS")){ //支付成功
 				//判断该笔订单是否在商户网站中已经做过处理
 				//如果没有做过处理，根据订单号（out_trade_no）在商户网站的订单系统中查到该笔订单的详细，并执行商户的业务程序
 				//如果有做过处理，不执行商户的业务程序
+				
 				//注意：在此处写付款成功业务代码，如修改数据库中该订单的状态等
+				
 				
 			}
 			return "success";

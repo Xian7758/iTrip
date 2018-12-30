@@ -1,0 +1,175 @@
+.w988{ width:988px; margin:0 auto;}
+
+/*css for Qmango body*/
+#header20100613{ height:121px; overflow:hidden; margin-bottom:5px;}
+.qlogo{ display:inline; float:left; width:139px; height:76px; overflow:hidden; margin:11px 17px 0 33px;}
+.qtopbanner{ float:left; width:450px; height:26px; margin-top:20px; padding-left:18px;}
+.qtopfunc{ float:right; width:151px; height:27px; margin-top:29px; text-align:right;}
+.qtopfunc a, .qtopfunc span{}
+s.mobile{ height:16px; width:16px; display:inline-block;vertical-align: middle; background:url(../images/phone.png) no-repeat;}
+.qtopfunc a.helpcenter{ margin-right:11px; padding:3px 0 0 13px; background:transparent url(../images/helpcenter.gif) no-repeat left 3px;}
+.qtopfunc a.mangocity{}
+#tuan{ line-height:13px; height:13px; padding-top:3px; margin-left:-6px; padding-right:20px;}
+#hot{ position:absolute; left:110px; top:-3px; width:16px; height:16px;background:url(../images/mango.gif) no-repeat;}
+.qtopfunc span{ color:#aaa;}
+.nav{ float:right; width:799px; height:35px; overflow:hidden; background:transparent url(../images/qmango.png) no-repeat 0 0;}
+.nav li{ float:left; height:35px; line-height:35px; text-align:center; font-size:14px;}
+.nav li a:link, .nav li a:visited{ color:#fff; text-decoration:none;}
+.nav li a:hover{ color:#FF0; text-decoration:none;}
+.nav li.w109{ width:109px;}
+.nav li.w95{ width:95px;}
+.nav li.w87{ width:87px;}
+.nav li.w74{ width:74px;}
+.infoBar{ clear:both; height:29px; background:transparent url(../images/bjx.jpg) repeat-x left top; line-height:29px;}
+.infoBar em{ color:#ff6600;}
+.subMsg{ float:left; padding-left:27px;}
+.subFunc{ float:right; padding-right:22px; color:#999;}
+/*.subFunc a:link, .subFunc a:visited{ color:#333; text-decoration:none;}*/
+.subFunc a:link,
+.subFunc a:visited { color:#333; text-decoration:none;}
+.subFunc a:hover,
+.subFunc a:active { color:#ff6600; text-decoration:underline;}
+.about{ height:31px; background:#499202; line-height:31px; text-align:center; font-size:13px;}
+.about a:link, .about a:visited{ color:#fff;}
+
+.footer{ padding-top:9px; text-align:center;}
+
+/*红包任务和糗事样式*/
+.module-x{float:left;}
+.module-x .hd{ width:489px; height:32px; background:url(../images/qmango101201.png) no-repeat 0 0; position:relative;}
+.mr10{ margin-right:10px;}
+
+.module-x .hd h2 {font-size:14px;font-weight:bold;height:32px;line-height:30px;margin-left:15px;color:#FFFFFF;}
+.module-x .hd h2 span{ color:#e1eec8; font-weight:normal; font-size:12px; padding:0 0 0 20px;}
+.module-x .hd p {color:#FFFFFF;height:32px;line-height:30px;position:absolute;right:10px;top:0;}
+.module-x .hd p a{ color:#FFFFFF;}
+
+.module-x .bd{ width:487px;border-left:#e4e4e4 solid 1px;border-right:#e4e4e4 solid 1px; overflow:hidden; height:239px;}
+.module-x .ft{ width:489px; height:3px; background:url(../images/qmango101201.png) no-repeat 0 -35px; overflow:hidden;}
+.i_qiushi_body{ width:479px;padding:8px 10px; line-height:18px; color:#333333; overflow:hidden;}
+.i_qiushi_counts{background-color:#F7F7F7;font-family:Arial;height:22px; line-height:22px;}
+.counts {color:#727272;float:left; padding-left:15px;}
+a.star {padding-left: 19px;	color:#727272;text-decoration: none;background:transparent url(../images/icons.gif) no-repeat 0 -89px;}
+.score {float:left}
+a.vote {background:url(../images/icons.gif) no-repeat scroll 0 -34px transparent;color:#727272;padding-left:18px;text-decoration:none;}
+a.down {background:transparent url(../images/icons.gif) no-repeat 0px -1px;	padding-left: 18px;	color:#727272;	text-decoration: none;}
+.space {margin-left:10px;margin-right:10px;	color: #e1e1e1;}
+a.comments, .post p.postcontrols a.comments {background:transparent url(../images/icons.gif) no-repeat 0px -64px;padding-left: 20px;color:#727272;text-decoration: none;}
+.datetime {	float:right;color:#727272;height:24px;font-size: 12px; padding-right:15px;}
+.datetime a {text-decoration: none;}
+
+.l_img{width:165px; float:left;}
+.l_img img{ width:165px; height:239px;}
+.r_tab{ width:322px; float:left;}
+.r_tab table{ width:312px; margin:0 auto; margin-top:10px;color:#333333;}
+.r_tab th{ background-color:#eef4e8; height:26px; line-height:26px; text-align:center;}
+.r_tab tbody td{ border-bottom:1px #ebebeb dashed;height:26px; line-height:26px; text-align:center;}
+.r_tab tfoot td{height:26px; line-height:26px; text-align:right; padding-right:14px;}
+
+.up_login{ position:absolute; z-index:200; width:600px; border:3px #555555 solid; overflow:hidden;}
+.up_login .title{height:60px; padding-left:10px; line-height:40px; font-size:14px; color:#FFFFFF; background:url(../images/qmango101201.png) no-repeat 0 -52px; background-color:#FFFFFF; overflow:hidden;}
+.up_login h3{ float:left;}
+.up_login .title span{float:right; width:20px; height:19px; background:url(../images/qmango101201.png) no-repeat 0 -180px;cursor:pointer;font-size:1px;margin-right:10px; overflow:hidden; text-indent:999em; margin-top:8px;}
+.up_login .cont{ width:580px;  background-color:#FFFFFF; padding:0 10px 20px 10px; overflow:hidden;}
+.up_login .cont .col_A{ width:290px; float: left;}
+.up_login .cont .col_B{ width:289px; float:right;}
+.up_login .tip{ width:270px; height:33px; line-height:33px;margin:0 auto;background:url(../images/qmango101201.png) no-repeat 0 -130px; margin-bottom:10px;}
+.up_login .tip p{ color:#FF6600; padding-left:36px;}
+.up_login .s_rbag{ color:#FF0000;}
+.up_login .s_rbag p{ padding:10px 0; text-align:center;}
+.red{ color:#FF0000; padding:0 4px;}
+.f16{ font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+.gray{color:#999999;}
+.subbtnA{ border:medium none;cursor:pointer;height:24px;line-height:24px;width:58px; background:url(../images/qmango101201.png) no-repeat -58px -270px;}
+
+.grid{float:left;font-size:12px;height:100%;overflow:hidden;}
+.side_l{ width:740px;clear:both;padding-top:10px; overflow:hidden;}
+.side_l .r_title{ width:740px; height:35px;background:url(../images/qmango101201.png) no-repeat 0 -357px;}
+.side_l .r_title span{ margin-left:10px; width:126px; height:35px; float:left; line-height:35px;background:url(../images/qmango101201.png) no-repeat 0 -400px; text-align:center; color:#FFFFFF; font-size:14px; font-weight:bold;}
+.side_l .r_title a.rbag_me{ float:right; line-height:35px; padding-right:10px; color:#c04545; text-decoration:none;}
+.side_l .r_title a.rbag_me:hover{ text-decoration:none;}
+.side_l .rbag_tab{ width:738px; margin:0 auto;border:1px #f1f1f1 solid;}
+.side_l .rbag_tab tfoot td{ text-align:right;}
+.side_l .rbag_tab th{ line-height:18px; border-bottom:2px #f1f1f1 solid; text-align:center; padding:10px; height:18px;}
+.side_l .rbag_tab td{ line-height:12px;border-bottom:1px #f1f1f1 solid; text-align:center; padding:10px; height:12px;}
+.side_r{ width:238px; margin-left:10px; background-color:#f1f7eb;margin-top:10px;overflow:hidden;}
+.side_r .tit { width:238px;height:34px; line-height:34px;  background:url(../images/qmango101201.png) no-repeat 0 -310px;overflow:hidden;}
+.side_r .tit span{color:#FFFFFF; font-size:14px; font-weight:bold; padding-left:10px;}
+.side_r .t_list{ margin:10px; border-bottom:1px #000000 dashed; padding-bottom:10px;}
+.side_r .t_list li{ line-height:21px;}
+.side_r .q_list{ margin:10px; padding-bottom:10px;}
+.side_r .q_list li{ padding-left:10px; line-height:24px;}
+.side_r .q_list li a{ color:#4f6e36; text-decoration:underline;}
+.side_r .q_list li a:hover{ color:#4f6e36; text-decoration:none;}
+.img_x{ margin-bottom:10px;}
+.side_r .t_txt .box-txt{ display:block; background:#FFFFFF;border: 1px solid #53a5d7; padding: 8px; height:88px; width: 200px; margin:0 auto; overflow:hidden;}
+.side_r .t_txt a.copylink2{display:inline-block; text-align:center; font-weight:bold; color:#FFFFFF; width:110px; height:28px; line-height:24px; background:url(../images/qmango101201.png) no-repeat -159px -220px;  margin-left:10px; margin-top:10px;}
+.side_r .t_txt span.r_t{ color:#999999; padding-left:10px;}
+
+.page{ margin:0; height:30px; border-top:1px #e5e5e5 solid; background:url(../images/qmango101201.png) no-repeat 0 -440px;}
+.page .page_total { float:right; height:30px; line-height:30px; overflow:hidden; padding-right:10px;}
+.page_list  { float:right; padding:5px 0;}
+.page_list li { display:inline; float:left; margin:0 1px; line-height:18px;}
+.page_list li a { display:block; padding:0 6px; border:1px solid #BEBEBE; cursor:pointer; color:#333333; text-decoration:none;-moz-border-radius: 3px;-khtml-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;}
+.page_list li a:hover { text-decoration:none; background-color:#FFFFFF;}
+.page_list li.current a { border:1px solid #538a13; background:#63a715; color:#fff; text-decoration:none; }
+.page_list li.ellipsis { margin:0 9px; font-family:Arial; }
+.page_list .prev,.page_list .next { margin:0 9px; }
+.page_list .prev a:hover,.page_list .next a:hover { border:1px solid #538a13; background:#dbf0c3; color:#538a13; text-decoration:none; }
+.page_list .disabled a,.page_list .disabled a:hover { border:1px solid #DFDFDF; background:#fff; color:#DFDFDF; cursor:default; text-decoration:none;}
+.page .hotel_sort{ height:30px; line-height:30px; float:left; padding-left:10px;}
+
+.u_r_cont{ width:740px; background:url(../images/userrbag_03.jpg) no-repeat right top; color:#333333;}
+.u_r_cont .r_link{ padding:10px;}
+.u_r_cont .r_link p{ font-size:14px; color:#333333; padding-bottom:10px;}
+.u_r_cont .r_link a.copylink{ display:block; text-align:center; font-weight:bold; color:#FFFFFF; width:110px; height:28px; line-height:24px; background:url(../images/qmango101201.png) no-repeat -159px -220px;}
+.u_r_cont .cont{ padding:10px;}
+.u_r_cont .cont p{ line-height:18px; width:350px; padding:10px 0 0 0;}
+.u_r_cont .count{padding:10px;}
+.u_r_cont .count p{ line-height:18px; width:600px;}
+.clearfix:after {clear:both; height:0; overflow:hidden; display:block; visibility:hidden; content:"."; }
+#msgDiv { z-index:101; width:600px; height:367px;position:absolute;left:43%;top:30%;font-size:12px;margin-left:-225px;display:none;}
+#bgDiv {z-index:100;display: none;position: absolute;left:0%;top:0%;background-color: #777;filter:alpha(opacity=60);-moz-opacity:0.6;opacity: 0.6;}
+
+.u_hb_cont{color: #333333; background:#f5f5f5;}
+.share_text{ color:#999; border: 1px solid #ffbe99;border-radius: 3px 3px 3px 3px;height:60px;line-height: 20px;overflow: hidden;padding: 15px;resize: none;width: 680px;}
+.ur_share{ padding:20px;}
+.share_input{ margin-bottom:10px;}
+.share_jiathis{ float:left;}
+.share_btn{ float:right;}
+a.copytext{ display:block; text-indent:-999px; overflow:hidden; width:121px; height:33px; line-height:33px; margin-left:20px; background:url(../images/hongbao_btn.jpg) no-repeat;}
+.share_info{clear:both; padding-top:80px; padding-bottom:20px; color:#999; }
+
+/*红包任务和糗事样式*/
+
+/*gz*/
+.gzarea{ margin:10px 0 0 10px; width:auto;}
+.gzarea li{ width:220px; margin:0 18px 10px 0; float:left;}
+.gzarea .g_img{ float:left;}
+.gzarea .g_txt{ float:left; padding-left:5px;}
+.gzarea .g_txt a{ line-height:21px;}
+/*gz*/
+
+/*会员中心糗事*/
+.qs_list{ line-height:18px; padding:10px 0;}
+.qs_list .title{ background:#efefef; height:32px; line-height:32px; overflow:hidden; padding:0 10px;}
+.qs_list .title .qs_id{ float:left;}
+.qs_list .title .qs_date{ float:right;}
+.qs_list .contont{ padding:10px 10px 0 10px;}
+#user_content .page_list li{ line-height:18px;}
+/*会员中心糗事*/
+
+/*upbox START*/
+.ifr{ position:absolute; left:0; top:0; background:#000;filter:alpha(opacity=30);-moz-opacity:0.3;opacity: 0.3;z-index:9999;}
+.mybox{ background:#fff; z-index: 99999; position: absolute; border:3px solid #555555;}
+.mybox .mt{background: url("../images/qmango101201.png") no-repeat scroll 0 -52px;color: #FFFFFF;font-size: 14px;height:40px;line-height: 40px;overflow: hidden;padding-left: 10px;}
+.mybox .mt strong{ float:left;}
+.mybox .mt span{ background: url("../images/qmango101201.png") no-repeat scroll 0 -180px transparent;cursor: pointer;float: right; line-height:999px; overflow:hidden;height:19px;margin-right: 10px; margin-top: 8px;  width: 20px;}
+.mybox .mc{ padding:20px;}
+.mybox .wrap_form{ padding:20px 0 20px 40px;}
+.wrap_form .wf_input{ margin-bottom:10px; font-size:14px;}
+.wrap_form .wf_input input{ border:1px #999 solid;height:20px; line-height:20px;}
+.wrap_form .wf_btn{ margin-bottom:10px; padding-left:100px;}
+.wrap_form .wf_btn a{ color:#1e5792; text-decoration:underline;}
+.wrap_form .wf_txt{ margin-bottom:10px; text-align: center;}
+/*upbox END*/

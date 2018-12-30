@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.itrip.mapper.DictionaryMapper">
+
+	<resultMap id="BaseResultMap"
+		type="org.itrip.pojo.Dictionary">
+		<id column="id" property="id" jdbcType="INTEGER" />
+		<result column="type" property="type" jdbcType="VARCHAR" />
+		<result column="typeName" property="typeName" jdbcType="VARCHAR" />
+		<result column="parentId" property="parentId" jdbcType="INTEGER" />
+		<result column="cdid" property="cdid" jdbcType="INTEGER" />
+	</resultMap>
+
+	<!-- 数据库字段 -->
+	<sql id="Base_Column_List">
+		id,type,typeName,parentId,cdid
+	</sql>
+	<select id="listDictionary" resultMap="BaseResultMap">
+		select
+		<include refid="Base_Column_List" />
+		from dictionary
+		<where>
+			<if test="cdid != 0 and cdid != null">
+				cdid = #{cdid}
+			</if>
+			<if test="parentId != 0 and parentId != null">
+				and parentId = #{parentId}
+			</if>
+			<if test="typeName != '' and typeName != null">
+				and typeName = #{typeName}
+			</if>
+			<if test="type != '' and type != null">
+				and type = #{type}
+			</if>
+		</where>
+	</select>
+</mapper>

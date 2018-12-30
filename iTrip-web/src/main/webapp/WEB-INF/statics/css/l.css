@@ -1,0 +1,111 @@
+.clear{ clear:both;}
+.mid{ width:988px; height:480px; border:1px #e7e7e7 solid; background-image:url(../images/bg.jpg); background-repeat:repeat-x; font-size:12px;margin:0 auto; margin-bottom:20px;}
+
+.ml{ width:494px; height:450px; float:left; border-right:1px #e7e7e7 solid; margin-top:18px;}
+
+.b1{ margin-top:20px;}
+.hy{ background-image:url(../images/hy.jpg); width:77px; height:23px; margin-left:55px; float:left;}
+.hy2{ margin-left:30px; float:left; margin-top:7px;}
+.stl {color: #ff0000;  }
+.b2{ margin-top:38px;}
+.ts1{ background-image:url(../images/g1.jpg); width:361px; height:27px; margin-left:55px; border:#FFF 1px solid;}
+
+.b3{ margin-left:80px; margin-top:20px; width:250px; height:20px; *margin-top:80px; _margin-top:20px;}
+.b4{ margin-left:80px; margin-top:10px; width:300px; height:30px;}
+.hz1{ width:88px; height:24px; background-image:url(../images/hz1.jpg); background-repeat:no-repeat; float:left;}
+.hz2{  width:88px; height:24px; background-image:url(../images/hz2.jpg); background-repeat:no-repeat; float:left; }
+.hz3{ width:88px; height:24px; background-image:url(../images/hz3.jpg); background-repeat:no-repeat; float:left;}
+.ww{ margin-left:21px; margin-top:5px; float:left;}
+
+
+.ml_con{width:330px; height:140px; margin-left:45px; margin-top:5px;}
+.tab_login{ width:429px;}
+.tab_login td{ padding:5px;}
+
+
+.ml_ba{ margin-left:12px; margin-top:13px; }
+.ml_ba_l{ float:left; margin-top:5px;}
+.ml_ba_r{ float:left;}
+
+.c{ margin-left:58px;}
+.outol{ color:#ccc;}
+
+.code{ float:left;margin-left:5px; margin-top:5px;}
+
+.s{}
+.txa{width:170px; height:20px; vertical-align:middle}
+.txb{width:123px; height:20px; }
+
+
+.bt{width:92px; height:34px; margin-left:58px;cursor:pointer}
+
+.m{ margin-left:10px;color:#666; font-size:12px; margin-top:14px;}
+
+
+
+
+
+
+
+.mr{ width:490px; height:450px; float:left; margin-top:18px;}
+
+.zc{ background-image:url(../images/zc.jpg); width:77px; height:23px; margin-left:55px; float:left; _margin-left:27px;}
+.zc2{ margin-left:30px;  float:left;  margin-top:7px; _margin-left:15px;}
+
+.ts2{ background-image:url(../images/g1.jpg); width:361px; height:27px; margin-left:55px; border:#FFF 1px solid; }
+.tsw{ margin-left:35px; margin-top:8px; }
+
+.mr_con{width:450px; height:210px;  margin-left:60px; margin-top:14px; border:1px #FFF solid;}
+
+
+
+.txc{width:124px; height:20px;}
+
+
+
+
+
+.mr_main{width:280px; height:25px; border-top:1px #ccc solid;border-left:1px #ccc solid;border-right:1px #ccc solid; margin-top:46px; margin-left:135px; font-size:14px;}
+.mr_main_l{width:138px; height:25px; solid;border-right:1px #ccc solid; float:left; text-align:center; line-height:25px; color:#F33; font-weight:bold;}
+
+.mr_main_r{width:138px; height:25px;  float:left; text-align:center; line-height:25px;}
+
+
+.mr_con_a{ width:498px; height:52px; margin-top:15px; margin-left:11px; line-height:15px;}
+.mr_con_b{width:454px; height:140px; background-color:#f6f6f6; margin-left:37px; margin-top:5px; border:1px #FFF solid;}
+.mr_con_b2{width:454px; height:210px; background-color:#f6f6f6; margin-left:37px; margin-top:5px; border:1px #FFF solid;}
+.mr_con_c{ color:#0100e4; font-size:14px; font-weight:bold; margin-top:34px; margin-left:379px;}
+.mr_con_c2{ color:#0100e4; font-size:14px; font-weight:bold; margin-top:10px; margin-left:379px;}
+.mr_ba{ padding:5px 0; width:100%; float:left;  }
+.mr_ba_l{ float:left; width:60px; height:24px; line-height:24px;}
+.mr_ba_r{ float:left;}
+.mr_ba_r2{ float:left; margin-left:5px; color:#ff0000;}
+.mr_ba_t{ float:left; margin-left:5px; margin-top:5px; color:#7d7d7d;}
+
+
+.bt2{width:92px; height:34px; margin-left:58px; cursor:pointer}
+
+
+
+.stl {color: #ff0000;}
+
+.hhh{ height:10px;}
+
+/*联合登录 START*/
+.hzlogin{ margin:4px 0 0 4px; position:relative}
+.hzlogin .btns {float:left;height:14px;line-height:14px;margin-right:4px;overflow:hidden;padding:5px 0 5px 23px;position:relative;}
+.hzlogin .btns s {background-image:url(../images/icon_cooperation.jpg);background-repeat:no-repeat;display:block;height:23px;left:0;
+position:absolute;top:0;width:23px;}
+
+.hzlogin .btns a:link, .hzlogin .btns a:visited {color:#333;padding-right:6px;text-decoration:none;}
+.hzlogin .btns a:hover{text-decoration:underline; color:#ff6600}
+.hzlogin .alipay s {background-position:-25px 0;}
+.hzlogin .mango s {background-position:-139px 0;}
+.hzlogin .qq s {background-position:-4px 0;}
+.hzlogin .sina s {background-position:-118px 0;}
+.hzlogin .mail139 s {background-position:-169px 0;}
+.hzlogin .z10086 s {background-position:-190px 0;}
+
+.hzlogin .t s {background-image:url(../images/icon_t.png);background-repeat:no-repeat;display:block;height:16px;width:16px;left:4px;
+position:absolute;top:4px;}
+/*联合登录 END*/

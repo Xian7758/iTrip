@@ -1,0 +1,240 @@
+﻿/* .content-list .list-left .hotel-list .hotel {
+    padding: 10px 0 10px;
+}
+
+.content-list .list-left .hotel-list .hotel .info {
+    padding: 0 10px;
+}
+
+.content-list .list-left .hotel-list .hotel .info .til {
+    margin-top: 10px;
+}
+
+.content-list .list-left .hotel-list .hotel .info .w720 {
+    width: 720px;
+}
+
+.content-list .list-left .hotel-list .hotel .info .w720 p {
+    width: 455px;
+}
+*/
+
+.content-list .list-left .hotel-list .hotel .info .img {
+    width: 200px;
+    height: 160px;
+}
+
+
+/* .content-list .list-left .hotel-list .hotel .info .base {
+    width: 455px;
+} */
+
+
+/* .content-list .list-left .hotel-list .hotel .info .area {
+    margin-top: 22px;
+} */
+
+.content-list .list-left .hotel-list .hotel .info .newReservation {
+    color: #1b7cd8;
+}
+
+.content-list .list-left .hotel-list .hotel .info .other .price {
+    font-size: 30px;
+}
+
+.content-list .list-left .hotel-list .hotel .info .other li:nth-child(1) em {
+    height: 42px;
+    border-bottom: 1px solid #ff6600;
+}
+
+.content-list .list-left .hotel-list .hotel .info .other li:nth-child(2) {
+    margin-top: 10px;
+}
+
+.content-list .list-left .hotel-list .hotel .info .other li:nth-child(3) {
+    margin-top: 10px;
+}
+
+.content-list .list-left .hotel-list .hotel .info .other li:nth-child(5) input {
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    border: 0px;
+    background: url(../images/yud.gif) no-repeat;
+}
+
+.btn-booking {
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    border: 0px;
+    background: url(../images/yud.gif) no-repeat;
+    display: inline-block;
+}
+
+#provideAdd {
+    margin-top: 10px;
+}
+
+
+    /* 开启图标样式 */
+
+
+    /* wifi */
+
+    #provideAdd .s1 {
+        background-position: 0px 0px;
+    }
+
+
+    /* 电视 */
+
+    #provideAdd .s2 {
+        background-position: -28px 0px;
+    }
+
+
+    /* 空调 */
+
+    #provideAdd .s3 {
+        background-position: -58px 0px;
+    }
+
+
+    /* 卫浴 */
+
+    #provideAdd .s4 {
+        background-position: -87px 0px;
+    }
+
+
+    /* 早餐 */
+
+    #provideAdd .s5 {
+        background-position: -118px 0px;
+    }
+
+
+    /* 关闭图标样式 */
+
+
+    /* wifi */
+
+    #provideAdd .s1-act {
+        background-position: 0px -18px;
+    }
+
+
+    /* 电视 */
+
+    #provideAdd .s2-act {
+        background-position: -28px -18px;
+    }
+
+
+    /* 空调 */
+
+    #provideAdd .s3-act {
+        background-position: -58px -18px;
+    }
+
+
+    /* 卫浴 */
+
+    #provideAdd .s4-act {
+        background-position: -87px -18px;
+    }
+
+
+    /* 早餐 */
+
+    #provideAdd .s5-act {
+        background-position: -118px -18px;
+    }
+
+    #provideAdd span {
+        float: left;
+        margin-right: 5px;
+        width: 24px;
+        height: 18px;
+        background: url(../images/sprites.gif) no-repeat;
+    }
+
+.swiper-container {
+    width: 1198px;
+    height: 140px;
+}
+
+.swiperBox {
+    height: 100px;
+    padding: 20px 44px;
+    position: relative;
+}
+
+.swiper-button-next {
+    background-image: url("../images/右箭头.png");
+    position: absolute;
+    top: 122px;
+    right: 12px;
+}
+
+.swiper-button-prev {
+    background-image: url("../images/左箭头.png");
+    position: absolute;
+    top: 122px;
+    left: 1147px;
+}
+
+.swiper_btn {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+.PagingBox {
+    width: 100%;
+    height: 34px;
+}
+
+#pagination3 {
+    width: 100%;
+    text-align: center;
+}
+
+.ui-pagination-container .ui-pagination-page-item.active {
+    background: #a6ce7f;
+    border-color: #a6ce7f;
+}
+
+.ui-pagination-container .ui-pagination-page-item:hover {
+    border-color: #a6ce7f;
+    color: #a6ce7f;
+    text-decoration: none;
+}
+
+.keywords_pop dl dd {
+    overflow: hidden;
+    word-wrap: break-word;
+    height: 20px;
+}
+
+.content .i-city .input-wrapBox {
+    position: relative;
+}
+
+.pop_city {
+    width: 412px;
+}
+
+
+.content-youh .youh-hotel .hbox .fuj a {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80px;
+}
+
+.content-list .list-left .hotel-list .hotel .info .base .name {
+    text-overflow: ellipsis;
+    max-width: 412px;
+}

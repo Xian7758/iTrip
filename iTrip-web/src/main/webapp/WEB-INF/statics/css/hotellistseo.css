@@ -1,0 +1,9 @@
+﻿.clearfix h2{font-size:14px; font-weight:normal; color:#999999; line-height:30px;}
+.hotellistSEO_expand{ background:url(../images/add.png) no-repeat; height:15px; width:15px; overflow:hidden; cursor:pointer; display:inline-block; margin-left:10px; vertical-align:-5px;}
+.hotellistSEO_collapse{ background:url(../images/diff.png) no-repeat; height:15px; width:15px; overflow:hidden; cursor:pointer; display:inline-block; margin-left:10px; vertical-align:-5px;}
+.SEOdatastyle{ display:block;word-wrap:break-word;}
+.SEOdatastyle p{ line-height:22px; padding:3px 0; color:#999999;}
+.SEOdatastyle p b{ width:56px; display:block; float:left;}
+.SEOdatastyle p span{ width:760px; display:inline-block;}
+.SEOdatastyle p a{ color:#999999; padding:0 6px 0 0;display:inline-block;}
+.SEOdatastyle p a:hover{ color:#72AB32;}

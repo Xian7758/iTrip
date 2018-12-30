@@ -6,21 +6,17 @@
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="username" property="username" jdbcType="VARCHAR" />
     <result column="password" property="password" jdbcType="VARCHAR" />
-    <result column="bm" property="bieming" jdbcType="VARCHAR" />
   </resultMap>
   
   <!-- 数据库字段 -->
   <sql id="Base_Column_List" >
-    	id, username, password
+    id, username, password
   </sql>
   
   <select id="getAll" resultMap="BaseResultMap" >
-    	select u.id,username,o.product as bm from `user` u ,`order` o where u.id=o.uid and o.uid=1 and o.sname="香港"
-  </select>
-  
-  <select id="login" resultMap="BaseResultMap" parameterType="User" >
-  		select <include refid="Base_Column_List" /> from `user` 
-  		where username = #{username} and password = #{password}
+    select 
+    	<include refid="Base_Column_List" />
+    from user
   </select>
   
 </mapper>

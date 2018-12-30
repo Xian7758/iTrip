@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.itrip.mapper.HotelMapper">
+
+	<resultMap id="BaseResultMap" type="org.itrip.pojo.Hotel">
+		<id column="id" property="id" jdbcType="INTEGER" />
+		<result column="hotelName" property="hotelName"
+			jdbcType="VARCHAR" />
+	</resultMap>
+
+	<!-- 数据库字段 -->
+	<sql id="Base_Column_List">
+		id,hotelName,countryId,provinceId,cityId,
+		price,img,address,details,facilities,hotelPolicy,
+		hotelType,hotelLevel,creationDate,createdBy,
+		modifyDate,modifiedBy,features
+	</sql>
+	<select id="listHotel1" resultMap="BaseResultMap">
+		select
+		<include refid="Base_Column_List" />
+		from hotel
+		<where>
+			<if test="cityId != 0 and cityId != null">
+				cityId = #{cityId}
+			</if>
+		</where>
+		order by id limit 5
+	</select>
+	<select id="listHotel2" resultMap="BaseResultMap">
+		SELECT 
+		<include refid="Base_Column_List" />
+		FROM hotel
+		<where>
+			<if test="cityId != 0 and cityId != null">
+				cityId = #{cityId}
+			</if>
+			<if test="hotelType != 0 and hotelType != null">
+				AND hotelType = #{hotelType}
+			</if>
+			<if test="query != '' and query != null">
+				AND (hotelName LIKE CONCAT('%',#{query},'%')
+				OR address LIKE CONCAT('%',#{query},'%')
+				OR details LIKE CONCAT('%',#{query},'%'))
+			</if>
+			<if
+				test="startPirce != '' and startPirce != null and endPirce != '' and endPirce != null">
+				AND price &gt;= #{startPirce} AND price &lt;= #{endPirce}
+			</if>
+		</where>
+		<if test="types == 'types2' and types != '' and types != null">
+			order by price asc
+		</if>
+		<if test="types == 'types types-on2' and types != '' and types != null">
+			order by price desc
+		</if>
+		<if test="types == 'types1' and types != '' and types != null">
+			order by id asc
+		</if>
+		<if test="types == 'types types-on1' and types != '' and types != null">
+			order by id desc
+		</if>
+		LIMIT #{pageIndex},#{pageSize}
+	</select>
+	
+	<select id="countHotel" resultType="int">
+		SELECT 
+			count(id)
+		FROM hotel
+		<where>
+			<if test="cityId != 0 and cityId != null">
+				cityId = #{cityId}
+			</if>
+			<if test="hotelType != 0 and hotelType != null">
+				AND hotelType = #{hotelType}
+			</if>
+			<if test="query != '' and query != null">
+				AND (hotelName LIKE CONCAT('%',#{query},'%')
+				OR address LIKE CONCAT('%',#{query},'%')
+				OR details LIKE CONCAT('%',#{query},'%'))
+			</if>
+			<if
+				test="startPirce != '' and startPirce != null and endPirce != '' and endPirce != null">
+				AND price &gt;= #{startPirce} AND price &lt;= #{endPirce}
+			</if>
+		</where>
+		<if test="types == 'types2' and types != '' and types != null">
+			order by price asc
+		</if>
+		<if test="types == 'types types-on2' and types != '' and types != null">
+			order by price desc
+		</if>
+		<if test="types == 'types1' and types != '' and types != null">
+			order by id asc
+		</if>
+		<if test="types == 'types types-on1' and types != '' and types != null">
+			order by id desc
+		</if>
+	</select>
+</mapper>

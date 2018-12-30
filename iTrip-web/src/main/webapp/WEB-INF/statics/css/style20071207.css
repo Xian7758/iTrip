@@ -1,0 +1,466 @@
+.Invisible{display:none;}
+#Main{width:950px;overflow:hidden;}
+body,p,th,td,input,select,textarea{
+    font:normal normal 12px "SimSun";
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+	font-size:14px;
+}
+h1{color:#fff;padding-top:10px; padding-bottom:10px; text-align:center;}
+/*
+h2{font-size:12px;padding:6px 0px 0px 30px;color:#2D7001;height:28px; line-height:28px; background:none repeat scroll 0 0 #EAF8D7;}
+*/
+h3{padding-left:5px;padding-right:5px;}
+h5{padding-top:5px;padding-bottom:5px;font-size:12px;}
+h4{width:154px;height:21px;color:#DC4F07;padding-top:5px;padding-left:18px;background:url("../images/hotelsearch_16.gif") no-repeat;}
+h6{margin-top:5px;font-size:14px;padding:5px 0px 0px 30px;color:#fff;background:url("../images/hotelsearch_39.gif") no-repeat;width:730px;height:34px;}
+.big01{font-size:14px;}
+ul,dl,ol,form{
+	margin:0;
+	padding:0;
+}
+ul li,ol li{
+	list-style-type:none;
+}
+dl dt,dl dd{
+	margin:0;
+	padding:0;
+}
+table{
+	text-align:left;
+}
+p{
+	margin:0;
+	padding:0;
+	line-height:18px;
+}
+hr{
+	border:#000 0 solid;
+	border-top:#D1D7DC 1px solid;
+	height:0;
+}
+img{border:0;}/*2011 03 28 modify by hejie behavior:url(ie-png-fix.htc)*/
+
+address,em{
+	font-style:normal;
+}
+a:link{
+	color:#333;
+	text-decoration:none;
+}
+a:hover{
+	color:#F50;
+	text-decoration:none;
+}
+.a01:link{
+	color:#245DA9;
+	text-decoration:none;
+}
+.a01:hovere{
+	color:#F50;
+	text-decoration:none;
+}
+.a02:link{
+	color:#474747;
+	text-decoration:none;
+}
+.a02:hover{
+	color:#245DA9;
+	text-decoration:none;
+}
+.a03:link{
+	color:#E04444;
+	text-decoration:none;
+}
+.a03:hover{
+	color:#245DA9;
+	text-decoration:none;
+}
+.invisible{display:none;}
+.table01{width:100%;}
+.table01 td{line-height:150%;padding:5px;}
+.table02{width:98%;border-spacing:0;margin:0 auto;border-collapse: collapse;}
+.table02 td{padding:3px;border:1px solid #e4f5c0;text-align:center;border-collapse: collapse;}
+.table02 th{background:#edf8d7;padding:3px;border:1px solid #e4f5c0;text-align:center;border-collapse: collapse;}
+
+.th_bg_01{font-weight:bold;color:#2C51BC;padding:0px 0px 0px 10px;height:20px;background:url("../images/hotelsearch_31.gif") repeat;border:1px solid #11F0FF;border-collapse: collapse;}
+.th_bg_01_2{font-weight:bold;color:#FFFFFF;padding:0px 0px 0px 10px;height:20px;background:url("../images/hotelsearch_31_2.gif") repeat;border:1px solid #6aa824;border-collapse: collapse;}
+
+.lh17{line-height:170%}
+
+#Head ul{
+	list-style-type:none;
+}
+#Head ul{
+	margin:0;
+	padding:0;
+}
+#Head #HeadTop{
+	position:relative;
+	width:1002px;
+	margin:0px auto 0;
+	text-align:left;
+	height:24px;
+	overflow:hidden;
+	border-top:3px solid #169BDC;
+	background:url('../images/headtop_01.jpg') repeat;
+	color:#4D4D4D;
+	font-family:Arial,宋体;
+}
+#Head  #HeadTop_left{
+	margin-top:5px;
+	width:350px;
+	height:19px;
+	float:left;
+	margin-left:8px;
+}
+#Head  #HeadTop_right{
+	margin-top:5px;
+	float:right;
+	text-align:right;
+	margin-right:10px;
+}
+#Head #HeadLogo{
+	clear:both;
+	width:1002px;
+	margin:0 auto;
+	padding-top:10px;
+}
+#Head #HeadLogo_Logo{
+	width:364px;
+	height:90px;
+	float:left;
+}
+#Head #HeadLogo_adv{
+	height:90px;
+	float:right;
+	text-align:center;
+}
+
+#Head #TopMenu {
+	  clear:both;
+	  margin:0 auto;
+      width:1002px;
+      font-size:14px;
+	  font-weight:bold;
+      line-height:normal;
+	  border-bottom:4px solid #8DB3DB;
+      }
+	#Head #TopMenuItems{
+	width:900px;
+	margin:0 auto;
+	overflow:hidden;
+	}
+    #Head  #TopMenuItems li{
+      display:inline;
+      margin:0 auto;
+      padding:0;
+      }
+    #Head #TopMenu a {
+      float:left;
+      background:url("../images/tableftj.gif") no-repeat left top;
+      margin:0;
+      padding:0px 5px 0px 10px;
+      text-decoration:none;
+      }
+  
+    #Head #TopMenu a span {
+      float:left;
+      display:block;
+      background:url("../images/tabrightj.gif") no-repeat right top;
+      padding:8px 20px 5px 15px;
+      color:#fff;
+	  margin-right:4px;
+      }
+
+    #Head #TopMenu  a span {float:none;}
+   #Head  #TopMenu  a:hover span {
+      color:#FFF;
+      }
+  #Head   #TopMenu  a:hover {
+      background-position:0% -43px;
+      }
+	   #Head  #TopMenu a:hover span {
+      background-position:100% -43px;
+      }
+  #Head   #TopMenu  a.selected {
+      background-position:0% -43px;
+      }	  
+   #Head  #TopMenu a.selected span {
+      background-position:100% -43px;
+      }
+#content{width:1002px;margin:0 auto;margin-top:8px; margin-bottom:20px;}
+
+#left_box{float:left;width:216px;margin-right:5px;}
+#left_box_login_top{background:url("../images/left_box_01.jpg") no-repeat;width:209px;height:32px;}
+#left_box_login_content{width:207px;border-left:1px solid;border-right:1px solid;border-color:#72a115;}
+#left_box_login_content2{width:209px;border-left:1px solid;border-right:1px solid;border-color:#72a115;}
+#left_box_login_bottom{background:url("../images/left_box_02.jpg") no-repeat;width:209px;height:7px;margin-bottom:5px;}
+#login{margin-left:10px;margin-right:10px;line-height:150%;color:#616262;padding-top:5px;}
+.login_content{background:#F1F5F5;padding:5px;}
+.logon_btn{height:22px;text-align:center;padding-top:5px;}
+.logon_note{background:#CFD6DC;padding:5px;}
+#fuwu{padding-top:8px;padding-left:12px;line-height:150%;}
+#fuwu li {word-break:break-all;word-wrap:break-word}
+#fuwu li a{color:#474747;word-break:break-all;word-wrap:break-word}
+#fuwu li a:hover{color:#1789CA}
+
+#left_box_login_top2{background:url("../images/left_box_04.jpg") no-repeat;width:209px;height:38px;}
+/*#hot_hotel{height:350px!important;height:340px;}*/
+
+#hot_hotel{}
+#hot_hotel li{line-height:170%;padding-left:8px;padding-right:5px;padding-top:10px;}
+
+#search{background:url("../images/left_box_05_04.jpg") no-repeat;width:552px;height:144px;padding-top:40px;}
+
+.btn01{background:url("../images/button_style_01.gif") no-repeat;width:69px;height:19px;font-weight:bold;color:#fff;border:0px;padding-left:10px;padding-top:3px;}
+.hl15{line-height:150%;}
+
+
+#center_box{float:left;width:554px;}
+#center_box_ad{margin-top:5px;margin-bottom:5px;}
+#center_box_hotel{background:url("../images/left_box_07.jpg") no-repeat;padding-top:40px;}
+/* old #center_box_hotel{background:url("../images/left_box_07.jpg") no-repeat;height:284px;padding-top:40px;}*/
+
+
+
+/*- Menu Tabs 1--------------------------- */ 
+    #tabs1 {
+		float:left;
+      width:475px;
+      font-size:12px;
+      line-height:normal;
+	  border-bottom:1px solid #93A2E8;
+	  margin-left:25px;
+      }
+    #tabs1 ul {
+	  list-style:none;
+      }
+    #tabs1 li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs1 a {
+      float:left;
+      background:url("../images/tableft1.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabs1 a span {
+      float:left;
+      display:block;
+      background:url("../images/tabright1.gif") no-repeat right top;
+      padding:4px 5px 1px 3px;
+      color:#333;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs1 a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs a:hover span {
+      color:#627EB7;
+      }
+    #tabs1 a:hover {
+      background-position:0% -42px;
+      }
+	  
+	      #tabs1 .up a{
+      background-position:0% -42px;
+      }
+
+    #tabs1 a:hover span {
+      background-position:100% -42px;
+      }
+	#tabs1 .up a span {
+      background-position:100% -42px;
+      }
+
+#tab{display:block;width:500px;margin:0 auto;}
+#thjd_more{height:20px;display:block;float:left;width:500px;margin-left:30px;padding-top:5px;}
+
+#center_box_mudi{width:552px;float:left;padding-left:1px;}
+#center_box_mudi_top{width:552px;float:left;height:10px;background:url("../images/left_box_21.jpg") no-repeat;}
+#center_box_mudi_bottom{width:552px;float:left;height:22px;background:url("../images/left_box_22.jpg") no-repeat;}
+#center_box_mudi #mudi_left{width:114px;float:left;background:url("../images/left_box_08.jpg") repeat-y center bottom;height:430px;}
+#center_box_mudi #mudi_right{width:438px;float:left;background:url("../images/left_box_09.jpg") repeat-y;height:430px;}
+
+
+
+
+#list01{width:100%}
+#list01 ul{width:50%;float:left;padding-top:5px;color:#C91072}
+#list01 li{padding-top:5px;padding-bottom:4px;}
+#list01 ul li a,#list_sh  ul li a{color:#474747;}
+#list01 ul li a:hover,#list_sh  ul li a:hover{color:#245DA9;}
+
+
+#right_box{width:214px;float:right;}
+#right_box_top{width:214px;margin-left:5px;}
+#right_box_content{width:214px;margin-left:5px;background:url("../images/left_box_13.jpg") repeat-y;}
+#right_box_bottom{width:214px;margin-left:5px;margin-bottom:5px;}
+
+#right_box_hdtj{background:url("../images/left_box_11.jpg") no-repeat;width:211px;height:23px;margin-left:5px;margin-bottom:5px;}
+.hdtj_h1{float:left;font-size:14px;color:#fff;padding-left:12px;padding-top:5px;font-weight:bold;}
+.hdtj_more{float:right;padding-top:6px;padding-right:15px;}
+.hdtj_more a{color:#555;}
+
+
+
+#right_box_gatj{background:url("../images/left_box_11.jpg") no-repeat;width:211px;height:23px;margin-left:5px;margin-bottom:5px;}
+.gatj_h1{float:left;font-size:14px;color:#fff;padding-left:12px;padding-top:5px;font-weight:bold;}
+
+
+
+#right_box_yxdt{background:url("../images/left_box_11_dt.jpg") no-repeat;width:211px;height:23px;margin-left:5px;margin-bottom:5px;}
+.yxdt_h1{float:left;font-size:14px;color:#fff;padding-left:12px;padding-top:5px;font-weight:bold;}
+.yxdt_more{float:right;padding-top:6px;padding-right:15px;}
+.yxdt_more a{color:#555;}
+
+
+#list02{background:#fff;width:179px;margin-left:6px;padding:10px;}
+#list02 ul{margin-right:5px;line-height:180%;color:#C91072}
+#list02 a,#list04 a{color:#474747;}
+#list02 a:hover,#list04 a:hover{color:#ff6600;}
+
+/*#list03{background:#fff;width:179px;margin-left:6px;padding:10px;margin-bottom:5px;height:210px;}*/
+
+#list03{background:#fff;width:179px;margin-left:6px;padding:10px;margin-bottom:5px;}
+#list03 ul{margin-right:5px;line-height:180%;}
+#list03 a{color:#474747;}
+#list03 li .a02{color:#ff6600;}
+#list03 a:hover{color:#ff6600;}
+/*
+#list05{background:#fff;width:179px;margin-left:6px;padding:10px;margin-bottom:5px;height:110px;}
+*/
+#list05{background:#fff;width:179px;margin-left:6px;padding:10px;margin-bottom:5px;height:130px;}
+#list05 ul{margin-right:5px;line-height:180%;}
+#list05 a{color:#474747;}
+#list05 li .a02{color:#ff6600;}
+#list05 a:hover{color:#ff6600;}
+
+
+#list06{background:#fff;width:179px;margin-left:6px;padding:10px;margin-bottom:5px;height:30px;}
+#list06 ul{margin-right:5px;line-height:180%;}
+#list06 a{color:#474747;}
+#list06 li .a02{color:#ff6600;}
+#list06 a:hover{color:#ff6600;}
+
+#list061{background:#fff;width:179px;margin-left:6px;padding:10px;margin-bottom:5px;}
+#list061 ul{margin-right:5px;line-height:180%;}
+#list061 a{color:#474747;}
+#list061 li .a02{color:#ff6600;}
+#list061 a:hover{color:#ff6600;}
+
+
+#list07{background:#fff;width:179px;margin-left:6px;padding:10px;margin-bottom:5px;height:30px;}
+#list07 ul{margin-right:5px;line-height:180%;}
+#list07 a{color:#474747;}
+#list07 li .a02{color:#ff6600;}
+#list07 a:hover{color:#ff6600;}
+
+#list04{background:#fff;width:179px;margin-left:6px;padding-left:10px;padding-top:5px;}
+#list04 ul{margin-right:5px;line-height:150%;color:#ff6500}
+
+#right_box_thlj{background:url("../images/left_box_12.jpg") no-repeat;width:199px;height:39px;margin-left:5px;margin-bottom:5px;}
+.thlj_h1{float:left;font-size:14px;color:#fff;padding-left:12px;font-weight:bold;margin-top:18px;}
+.thlj_more{float:right;padding-top:19px;padding-right:5px;}
+.thlj_more a{color:#555;}
+
+.left{float:left;}
+#right_box_lxgj{background:url("../images/left_box_16.jpg") no-repeat;width:201px;margin-left:5px;margin-bottom:5px;clear:both;margin-top:10px;}
+.lxgj_h1{float:left;font-size:14px;color:#fff;padding-left:25px;padding-top:5px;font-weight:bold;}
+.lxgj_more{float:right;padding-top:6px;padding-right:6px;}
+.lxgj_more a{color:#555;}
+
+#foot{clear:both;width:1002px;margin:0 auto;background:#ededed;height:105px;}
+#foot ul{width:1002px;text-align:center;padding-top:15px;font-size:12px;font-family:Arial;}
+#foot a{color:#474747;}
+
+
+
+#fyqlj{clear:both;width:1002px;margin:0 auto;height:85px; border:1px solid #ededed; vertical-align:middle;}
+#fyqlj ul{width:1002px; font-size:12px;font-family:Arial;padding-top:10px;}
+#fyqlj a{color:#474747;}
+
+
+
+
+
+#hotel_step{margin:5px auto auto auto;width:1002px;height:48px;background:url("../images/hotelsearch_02.gif") repeat-x;}
+
+#hotel_step_left{float:left;width:60px;height:48px;background:url("../images/hotelsearch_01.gif") no-repeat;}
+#hotel_step_locat{float:left;width:204px;padding-top:22px;background:url("../images/hotelsearch_02.gif") no-repeat;}
+#hotel_step_step{float:left;width:708px;height:42px;padding-top:6px;text-align:right;}
+#hotel_step_right{float:left;width:30px;height:48px;background:url("../images/hotelsearch_03.gif") no-repeat;}
+
+#list_sh{overflow:auto;width:197px;padding-left:10px;}
+#list_sh ul{float:left;width:90px;}
+#list_sh li{line-height:150%;}
+
+#hotel_search_right{float:left;width:780px;}
+#hotel_search_search{height:67px;background:url("../images/hotelsearch_09.gif") no-repeat;padding-top:25px;padding-left:190px;}
+#digital_search_search{height:67px;background:url("../images/digitalsearch_09.gif") no-repeat;padding-top:25px;padding-left:190px;}
+#hotel_search_search2{height:77px;background:url("../images/hotelsearch_20.gif") no-repeat;padding-top:15px;padding-left:150px;}
+#hotel_search_search3{height:77px;background:url("../images/hotelsearch_38.gif") no-repeat;padding-top:15px;padding-left:90px;}
+#hotel_search_list{margin-top:5px;margin-bottom:10px;width:774px;border:1px solid #AACC8F;padding:2px;overflow:hidden;}
+#hotel_search_list_head{background:#F3F8EF;height:36px;}
+#hotel_search_list_head li{line-height:32px;}
+#hotel_search_list_more{width:760px;height:23px;}
+#hotel_search_list_more li{padding-left:15px;padding-right:15px;padding-top:5px;}
+.left{float:left}
+.right{float:right}
+
+
+#hotelsearch2_left_top{width:204px;height:16px;background:url("../images/hotelsearch_13.gif") no-repeat;}
+#hotelsearch2_left_content{width:179px;background:url("../images/hotelsearch_14.gif") repeat-y;padding-left:15px;padding-right:10px;}
+#hotelsearch2_left_bottom{width:204px;height:16px;background:url("../images/hotelsearch_15.gif") no-repeat;}
+#hotelsearch2_left_line{width:204px;height:5px;background:#40C6FF;}
+
+#hotelsearch_2_content_top{width:770px;height:37px;background:url("../images/hotelsearch_23.gif") no-repeat;text-align:center;}
+#hotelsearch_2_content_center{width:765px;background:url("../images/hotelsearch_24.gif") repeat-y;line-height:30px;padding-left:5px;}
+#hotelsearch_2_content_bottom{width:770px;height:16px;background:url("../images/hotelsearch_26.gif") no-repeat;}
+
+#zfdj{margin:10px auto 10px auto;width:1002px;border-style:solid;border-width:0px 0px 0px 1px;border-color:#cccccc;}
+#zfdj_left{float:left;width:660px;}
+#zfdj_center{float:left;width:288px;backgroud:#ccc;}
+#zfdj_right{float:right;width:53px;height:520px;background:url("../images/hotelsearch_30.gif") repeat;}
+#line1 {background-color:#ccc;height:1px;overflow:hidden;width:972px;clear:both;padding:0px;margin:0px;}
+
+#ddxx_top{background:url("../images/hotelsearch_34.gif") no-repeat;width:253px;height:32px;color:#2C51BC;font-weight:bold;padding-top:10px;padding-left:35px;font-size:14px;}
+#ddxx_top_2{background:url("../images/hotelsearch_34_1.gif") no-repeat;width:253px;height:32px;color:#FFFFFF;font-weight:bold;padding-top:10px;padding-left:35px;font-size:14px;}
+#ddxx_content{background:url("../images/hotelsearch_35.gif") no-repeat;width:268px;height:312px;padding-top:20px;padding-left:20px;}
+
+#login_user{margin-top:5px;margin-bottom:10px;width:760px;border:1px solid #ccc;padding:2px;overflow:hidden;background:url("../images/left_box_19.jpg") no-repeat right bottom;padding-left:14px;}
+#login_user td{ padding:5px;}
+
+#user_content{margin-top:5px;margin-bottom:10px;width:755px;border:1px solid #ccc;padding:10px;overflow:hidden;}
+#user_content li{line-height:30px;}
+.user_content_list_pl{padding-left:10px;}
+
+#hostel_list{width:750px;margin:0 auto 0 auto;padding:5px;}
+#hostel_list li{height:20px;}
+#hostel_list li a{color:#555;}
+#hostel_list li a:hover{color:#129CC8;}
+#hostel_list_head{height:25px;line-height:15px;font-weight:bold;font-size:12px;color:#129CC8;background:url("../images/dd02.gif") no-repeat;padding-left:15px;}
+#hostel_list_line{background:url("../images/hotelsearch_43.gif") repeat-x;}
+
+#daohang{margin:5px auto auto auto;width:1002px;height:26px;}
+
+#daohang_left{float:left;width:43px;height:26px;background:url("../images/hotelsearch_50.gif") no-repeat;}
+#daohang_locat{height:18px;float:left;width:939px;padding-top:8px;background:url("../images/hotelsearch_51.gif") repeat-x;}
+#daohang_right{float:left;width:20px;height:26px;background:url("../images/hotelsearch_52.gif") no-repeat;}
+#daohang li a{color:#245DA9;text-decoration:underline;}
+#daohang li a:hover{color:#555;text-decoration:none;}
+H5 {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0px; MARGIN-bottom: 0px;PADDING-LEFT: 25px; FONT-SIZE: 14px; BACKGROUND: url(../images/djbz.jpg) no-repeat; PADDING-BOTTOM: 0px; MARGIN-LEFT: 8px;  COLOR: #474747; PADDING-TOP: 0px
+}
+.bookBtn{ width:58px; height:22px; border:none; background:transparent url(../images/yd.gif) no-repeat left top;cursor:pointer;}
+
+/*清除浮动使用*/
+.clearfix{
+clear: both;
+}
